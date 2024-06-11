@@ -7,7 +7,9 @@ plugins {
 android {
     namespace = "com.example.lemonrecipe"
     compileSdk = 34
-
+    buildFeatures{
+        viewBinding=true
+    }
     defaultConfig {
         applicationId = "com.example.lemonrecipe"
         minSdk = 24
